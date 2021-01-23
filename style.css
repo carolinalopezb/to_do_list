@@ -1,0 +1,85 @@
+.container{
+    height: 500px;
+    width: 300px;
+    border: 1px black solid; 
+    border-radius: 25px;
+    padding: 3px;
+}
+.header { 
+    width: 100%;
+    height: 25%;
+    background-image: url(./img/img1.webp);
+    background-size: 100%;
+    position: relative;
+    float: right;
+    border-top-left-radius: 25px ;
+    border-top-right-radius:25px ;
+}
+.content { 
+    width: 100%;
+    height: 65%;
+    background: white;
+    position: relative;
+    float: right;
+    overflow-y: scroll;height: 65%;
+}
+.adding-items { 
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to left, #f3c7b9, #ca9de9);
+    position: relative;
+    float: right;
+    border-bottom-left-radius: 25px ;
+    border-bottom-right-radius:25px ;
+}
+.date{
+    color: white;
+    position:relative;
+    margin-top: 29%;
+    margin-left: 2%;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 150%;
+}
+#item-to-add{
+   border-radius: 5px;
+   margin-top: 5%;
+   width: 70%;
+   margin-left: 3%;
+}
+#add-item{
+    border-radius: 70px;
+    margin-left: 5%;
+    color: rgb(253, 95, 193);
+    background-color: white;
+}
+.li{
+    
+    display: inline-flex;
+    float: left;
+    align-items: baseline;
+    width: 100%;
+    margin-right: 5%;
+    padding-top: 2%;
+    /* margin-bottom: 3%;  */
+}
+.p{
+  
+    width: 80%;
+
+}
+#liButton1{
+    float: right;
+    border-radius: 50px;
+    color:teal;
+    background-color: white;
+}
+#liButton2{
+    float: right;
+    border-radius: 50px;
+    color: rgb(214, 100, 100);
+    background-color: white;
+} 
+.cross-out{
+    text-decoration: line-through;
+}
+
